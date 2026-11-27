@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ :",
+      "name": "Statue de Champlain",
+      "detail": "Terrasse Dufferin",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/statue-de-champlain",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Statue%20de%20Champlain_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Première auberge de la Nouvelle-France",
+      "detail": "Côte de la Fabrique devant SIMONS",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/première-auberge-de-québec",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Auberge%20Au%20Baril%20d%20Or%20r%C3%A9sum%C3%A93_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Nouvelles casernes",
+      "detail": "Côte du Palais et l'Hôtel-Dieu",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/nouvelles-casernes",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Nouvelles%20Casernes_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Redoute Dauphine",
+      "detail": "rue McMahon",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/redoute-dauphine",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Redoute%20Dauphine_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Porte Kent",
+      "detail": "rue Dauphine",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/porte-kent",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Porte%20Kent_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Les Poudrières",
+      "detail": "Parc de l'Esplanade",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/poudrières-de-québec",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Poudri%C3%A8res%20de%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Maison Péans",
+      "detail": "au coin des rues Saint-Louis et Corps-de-Garde",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-péans",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20P%C3%A9an%20-%20Des%20M%C3%A9loizes_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Madame de La Peltrie",
+      "detail": "Monastère des Ursulines, rue Donacona",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/madame-de-la-peltrie",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20De%20la%20Peltrie%20Marie%20Madeleine%20Gruel_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Rue des Jardins",
+      "detail": "entre le Monastère des Ursulines et la cathédrale Holy Trinity",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/rue-des-jardins",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Des%20Jardins%20rue_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Maison Maillou",
+      "detail": "17, rue Saint-Louis avec les volets en métal",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-maillou",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20Maillou_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "11-",
+      "name": "Monument Wolfe-Montcalm",
+      "detail": "Parc des Gouverneurs à l'ouest du Château Frontenac",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/monument-wolfe-montcalm",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Monument%20Wolfe%20Montcalm_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

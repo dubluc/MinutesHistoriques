@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1-",
+      "name": "La rivière Saint-Charles",
+      "detail": "tout le long du parcours",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/rivière-saint-charles",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/LM%20Rivi%C3%A8re%20Saint%20Charles_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Ouvrage à corne",
+      "detail": "au pont Drouin, passez dessous et tournez à droite pour rejoindre le Parc du Vieux Passage, à l'accès au pont",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/ouvrage-à-corne",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Ouvrage%20%C3%A0%20corne%20WEB_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Parc Cartier-Brébeuf",
+      "detail": "au kiosque de Parc Canada à la rivière Lairet",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/parc-cartier-brébeuf",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/LM%20Parc%20Cartier%20Br%C3%A9beuf_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Passerelle des Trois Sœurs",
+      "detail": "passerelle blanche à hauban",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/passerelle-des-trois-soeurs",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Passerelle%20des%20Trois%20Soeurs_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Pont de l'Aqueduc",
+      "detail": "passerelle arquée, à l'ouest du pont Marie-de-l'Invarnation",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/pont-de-laqueduc",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/LM%20Pont%20de%20l_Aqueduc_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Pont Scott",
+      "detail": "à l'extrémité ouest du Parc Linéaire de la rivière St-Charles",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/pont-scott",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Pont%20Scott_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Marie-de-l'Incarnation",
+      "detail": "au pont du même nom",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/marie-guyart-de-lincarnation",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Marie%20de%20l_incarnation_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Parc Linéaire de la Rivière Saint-Charles",
+      "detail": "sentiers et piste cyclable",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/parc-linéaire-de-la-rivière-saint-charles",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Parc%20lin%C3%A9aire%20de%20la%20rivi%C3%A8re%20Saint%20Charles_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Passerelle de la Tortue",
+      "detail": "passerelle reliant le Parc de la Pointe aux Lièvres à la 1ère avenue",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/passerelle-de-la-tortue",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Passerelle%20de%20la%20Tortue_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Parc Gilles-Lamontagne",
+      "detail": "fin du parcours au point de départ",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/parc-gilles-lamontagne",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Parc%20Gilles%20Lamontagne_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

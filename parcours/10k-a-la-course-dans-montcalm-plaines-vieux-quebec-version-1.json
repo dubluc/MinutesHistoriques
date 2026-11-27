@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ :",
+      "name": "Statue de Champlain",
+      "detail": "sur la Terrasse Dufferin",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/statue-de-champlain",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Statue%20de%20Champlain_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Croix de Malte",
+      "detail": "Traversez la Porte Cochère (porte principale) du Château Frontenac  et retournez-vous pour voir la Croix incrustée dans le mur nord au dessus de la porte",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/croix-de-malte",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Croix%20de%20Malte%20VERSION%20WEB_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Maison aux fenêtres murées",
+      "detail": "coin rue St-Louis et rue d'Aureuil",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-aux-fenêtres-murées",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20aux%20six%20fen%C3%AAtres%20mur%C3%A9es_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Bataille des Plaines d'Abraham",
+      "detail": "coin Grande-Allée et rues Turnbull et Cartier",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/bataille-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Bataille%20des%20Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Faubourg Guénette",
+      "detail": "rue Crémazie",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/faubourg-guénette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Faubourg%20Gu%C3%A9nette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Charles Lindberg sur les Plaines",
+      "detail": "1928 - Anneau des Plaines d'Abraham",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/lindbergh-sur-les-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Lindberg%20%C3%A0%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Réservoir d'eau des Plaines d'Abraham",
+      "detail": "au sud du Parc Jeanne d'Arc, coin rue George VI et rue Taché",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/réservoir-deau-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20R%C3%A9servoir%20d_eau%20des%20Plaines%20d_Abraham_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Fontaine de Tourny",
+      "detail": "Face à l'Hotel du Parlement",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/fontaine-de-tourny",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/CP%20Fontaine%20de%20Tourny_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Maison Montcalm",
+      "detail": "rue des Remparts entre rue Hamel et rue St-Flavien",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-montcalm",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20Montcalm_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Le Chien d'Or",
+      "detail": "Levez les yeux pour voir le bas relief doré sur le devant de l'édifice Louis-Saint-Laurent",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/chien-dor",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Chien%20d_Or_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

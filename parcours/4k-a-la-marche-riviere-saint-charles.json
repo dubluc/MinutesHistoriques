@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1-",
+      "name": "Parc linéaire de la Rivière Saint-Charles",
+      "detail": "rive nord via le pont Dorchester",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/parc-linéaire-de-la-rivière-saint-charles",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Parc%20lin%C3%A9aire%20de%20la%20rivi%C3%A8re%20Saint%20Charles_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Ouvrage à corne",
+      "detail": "après être passé sous le pont Drouin, tournez à droite pour rejoindre le Parc du Vieux-Passage",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/ouvrage-à-corne",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Ouvrage%20%C3%A0%20corne%20WEB_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "La Croix de Jacques Cartier",
+      "detail": "elle n'y est plus...",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/croix-de-jacques-cartier",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/LM%20Croix%20de%20Cartier%20au%20Parc%20Cartier-Br%C3%A9beuf_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "La rivière Saint-Charles",
+      "detail": "",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/rivière-saint-charles",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/LM%20Rivi%C3%A8re%20Saint%20Charles_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "La passerelle de la Tortue",
+      "detail": "lien entre le Parc de la Point-aux-Li`vres et la 1ère avenue",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/passerelle-de-la-tortue",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Passerelle%20de%20la%20Tortue_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Le Parc Gilles Lamontagne",
+      "detail": "fin du parcours",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/parc-gilles-lamontagne",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Parc%20Gilles%20Lamontagne_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

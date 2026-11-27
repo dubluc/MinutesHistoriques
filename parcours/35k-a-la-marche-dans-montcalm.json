@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1-",
+      "name": "Faubourg Guénette",
+      "detail": "rue Crémazie",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/faubourg-guénette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Faubourg%20Gu%C3%A9nette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Villa Westfield",
+      "detail": "430, Chemin Sainte-Foy",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/résidences-du-quartier-montcalm/villa-westfield",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Villa%20Westfield_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Villa Bijou",
+      "detail": "550 à 590, Chemin Sainte-Foy",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/résidences-du-quartier-montcalm/villa-bijou",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Villa%20Bijou_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Villa Sans-Bruit",
+      "detail": "874, avenue Brown",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/résidences-du-quartier-montcalm/villa-sans-bruits",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Villa%20Sans-Bruit_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Avenue des Braves",
+      "detail": "rue au sud du Parc des Braves",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/avenue-des-braves",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Avenue%20des%20Braves_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Louis-Antoine de Bougainville",
+      "detail": "coin Grande-Allée et avenue de Bougainville",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/louis-antoine-de-bougainville",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO Bougainville Louis-Antoine de_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Appartements Château St-Louis",
+      "detail": "Grande-Allée entre avenues Bourlamaque et Cartier",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/résidences-du-quartier-montcalm/app-château-saint-louis",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20App%20Chateau%20Saint_Louis_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Maison Henry-Stewart",
+      "detail": "coin Grande-Allée et avenue Cartier",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/résidences-du-quartier-montcalm/maison-henry-stuart",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Maison%20Henry-Stuart_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

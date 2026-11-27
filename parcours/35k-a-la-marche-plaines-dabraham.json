@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ :",
+      "name": "Croix du Sacrifice",
+      "detail": "entrée principale des Plaines d'Abraham",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/croix-du-sacrifice",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA Croix du  Sacrifice_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Quebec Skating Rink",
+      "detail": "au même endroit que la croix",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/quebec-skating-rink",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Quebec%20Skating%20Rink_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Manège Militaire",
+      "detail": "à l'arrière de l'exposition des canons trophées de guerre",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/manège-militaire",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/CP%20Man%C3%A8ge%20militaire%20de%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Jardin Jeanne d'Arc",
+      "detail": "à droite, en haut de la côte",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/jardin-jeanne-darc",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Jardin%20Jeanne%20d%20Arc_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Réservoir des Plaines",
+      "detail": "au sud Parc Jeanne d'Arc",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/réservoir-deau-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20R%C3%A9servoir%20d_eau%20des%20Plaines%20d_Abraham_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Golf sur les Plaines",
+      "detail": "au sud Parc Jeanne d'Arc vers la Citadelle",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/golf-sur-les-plaines",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Golf%20Club%20sur%20les%20Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Monument Wolfe",
+      "detail": "rond-point",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/monument-wolfe",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Monument%20Wolfe_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Lindbergh sur les Plaines",
+      "detail": "à l'anneau des Plaines",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/lindbergh-sur-les-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Lindberg%20%C3%A0%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Bataille des Plaines d'Abraham",
+      "detail": "au Kiosque Edwin-Bélanger et café. Lieu d'affrontement des deux armées",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/bataille-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Bataille%20des%20Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Camp de Cove Field",
+      "detail": "au sud du Manège Militaire",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/camp-de-concentration-de-cove-field",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Camp%20de%20concentration%20de%20Cove%20Field_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "11-",
+      "name": "Les poternes du rempart",
+      "detail": "passages au bas du mur du rempart",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/poternes-du-rempart",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Poternes%20de%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

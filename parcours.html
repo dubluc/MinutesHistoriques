@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parcours audio | Minutes historiques de Québec</title>
+<style>
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;padding:4px;font-family:Arial,sans-serif;color:#202124;background:transparent}
+#mini-audio-player{width:100%;font-family:Arial,sans-serif;color:#202124}
+.speed-line{display:flex;justify-content:flex-end;margin-bottom:5px}
+.speed-control{text-align:right;color:#5f6368;font-size:12px}
+.speed-control select{font-size:12px;padding:2px 4px;border:1px solid #dadce0;border-radius:4px;background:white;color:#202124}
+.audio-row{display:grid;grid-template-columns:minmax(0,1fr) 25px 21px 76px;align-items:center;column-gap:6px;width:100%;min-height:30px;padding:2px 0}
+.description{min-width:0;line-height:1.35;overflow-wrap:anywhere}
+.prefix{color:#1c1c1c;font-size:15px;font-style:italic}
+.place{color:#734332;font-size:15px;font-style:italic;text-decoration:underline}
+.detail{color:#b45f06;font-size:15px;font-style:italic}
+.time{color:#777;font-size:10px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.play{width:25px;height:25px;padding:0;border:0;border-radius:50%;background:#1976d2;color:white;cursor:pointer}
+.restart{width:21px;height:21px;padding:0;border:0;background:transparent;color:#5f6368;font-size:17px;cursor:pointer}
+.play:disabled,.restart:disabled{opacity:.4;cursor:not-allowed}
+button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #1976d2;outline-offset:2px}
+#status{font-size:12px;color:#a32929;min-height:0}
+@media(max-width:380px){.audio-row{grid-template-columns:minmax(0,1fr) 25px 21px 70px;column-gap:4px}}
+</style>
+</head>
+<body>
+<div id="mini-audio-player">
+ <div class="speed-line"><div class="speed-control"><label for="global-speed">Vitesse : </label><select id="global-speed"><option value="0.75">0,75×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option></select></div></div>
+ <div id="status" role="status" aria-live="polite"></div>
+ <div id="capsules"></div>
+</div>
+<script>
+(()=>{
+'use strict';
+const root=document.getElementById('mini-audio-player');
+const list=document.getElementById('capsules');
+const status=document.getElementById('status');
+const speed=document.getElementById('global-speed');
+const BASE_AUDIO='https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/';
+const params=new URLSearchParams(location.search);
+const trajet=params.get('trajet')||'';
+const fmt=n=>Number.isFinite(n)&&n>=0?Math.floor(n/60)+':'+String(Math.floor(n%60)).padStart(2,'0'):'0:00';
+const setStatus=s=>{status.textContent=s};
+function styleCss(s){
+ if(!s||typeof s!=='object')return '';
+ const color=typeof s.color==='string'&&/^#[0-9a-fA-F]{3,8}$/.test(s.color)?s.color:null;
+ const size=Number(s.size);
+ return [color?'color:'+color:'',Number.isFinite(size)&&size>=8&&size<=40?'font-size:'+size+'px':'',s.bold===true?'font-weight:700':'',s.italic===true?'font-style:italic':'',s.underline===true?'text-decoration:underline':''].filter(Boolean).join(';');
+}
+function addText(parent,tag,cls,text,css){const el=document.createElement(tag);el.className=cls;el.textContent=text||'';if(css)el.style.cssText=css;parent.appendChild(el);return el}
+function safeAudio(value){
+ if(typeof value!=='string'||!value.trim())return '';
+ const v=value.trim();
+ // Accept only GitHub raw URLs in this repository or a plain filename.
+ if(/^https?:\/\//i.test(v)){
+  try{const u=new URL(v);if(u.hostname!=='raw.githubusercontent.com'||!u.pathname.startsWith('/dubluc/MinutesHistoriques/main/'))return '';return u.href}catch{return ''}
+ }
+ if(v.includes('/')||v.includes('\\')||!v.toLowerCase().endsWith('.mp3'))return '';
+ return BASE_AUDIO+encodeURIComponent(v);
+}
+function addCapsule(c,styles){
+ const row=document.createElement('div');row.className='audio-row';
+ const desc=document.createElement('span');desc.className='description';row.appendChild(desc);
+ addText(desc,'span','prefix',c.prefix||'',styleCss(styles.prefix));
+ const name=String(c.name||'');
+ let page='';try{const u=new URL(c.page||'');if(['https:','http:'].includes(u.protocol))page=u.href}catch{}
+ if(page){const a=addText(desc,'a','place',name,styleCss(styles.place));a.href=page;a.target='_blank';a.rel='noopener noreferrer'}
+ else addText(desc,'span','place',name,styleCss(styles.place));
+ if(c.detail)addText(desc,'span','detail',' ('+c.detail+')',styleCss(styles.detail));
+ const play=addText(row,'button','play','▶');play.type='button';play.title='Lecture / Pause';play.setAttribute('aria-label','Lecture');
+ const restart=addText(row,'button','restart','↺');restart.type='button';restart.title='Recommencer';restart.setAttribute('aria-label','Recommencer');
+ const time=addText(row,'span','time','0:00 / 0:00',styleCss(styles.time));
+ const audio=document.createElement('audio');audio.preload='metadata';row.appendChild(audio);
+ const url=safeAudio(c.mp3);
+ if(!url){play.disabled=true;restart.disabled=true;time.textContent='Sans audio'}
+ else audio.src=url;
+ const update=()=>{time.textContent=fmt(audio.currentTime)+' / '+fmt(audio.duration)};
+ const updateButton=()=>{play.textContent=audio.paused?'▶':'❚❚';play.setAttribute('aria-label',audio.paused?'Lecture':'Pause')};
+ audio.playbackRate=Number(speed.value);
+ audio.addEventListener('loadedmetadata',update);
+ audio.addEventListener('timeupdate',update);
+ audio.addEventListener('durationchange',update);
+ audio.addEventListener('pause',updateButton);
+ audio.addEventListener('play',updateButton);
+ audio.addEventListener('ended',()=>{audio.currentTime=0;update();updateButton()});
+ audio.addEventListener('error',()=>{time.textContent='Erreur audio';play.disabled=true;restart.disabled=true});
+ play.addEventListener('click',async()=>{
+  if(!audio.paused){audio.pause();return}
+  root.querySelectorAll('audio').forEach(other=>{if(other!==audio)other.pause()});
+  audio.playbackRate=Number(speed.value);
+  try{await audio.play()}catch{time.textContent='Erreur audio'}
+ });
+ restart.addEventListener('click',()=>{audio.currentTime=0;update()});
+ list.appendChild(row);
+}
+speed.addEventListener('change',()=>root.querySelectorAll('audio').forEach(a=>a.playbackRate=Number(speed.value)));
+if(!/^[a-zA-Z0-9_-]+$/.test(trajet)){setStatus('Trajet absent ou invalide. Ajoutez ?trajet=nom-du-trajet à l’adresse.');return}
+setStatus('Chargement du parcours…');
+fetch('parcours/'+encodeURIComponent(trajet)+'.json',{cache:'no-cache'})
+.then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()})
+.then(data=>{
+ const capsules=Array.isArray(data.capsules)?data.capsules:[];
+ if(!capsules.length)throw Error('Aucune capsule dans le JSON');
+ const styles=data.styles&&typeof data.styles==='object'?data.styles:{};
+ const speedEl=root.querySelector('.speed-control');speedEl.style.cssText=styleCss(styles.speed);
+ capsules.forEach(c=>addCapsule(c,styles));setStatus('');
+})
+.catch(e=>setStatus('Impossible de charger le trajet « '+trajet+' » : '+e.message));
+})();
+</script>
+</body>
+</html>

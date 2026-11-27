@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ :",
+      "name": "Statue de Champlain",
+      "detail": "sur la Terrasse Dufferin",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/statue-de-champlain",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Statue%20de%20Champlain_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Marie de l'Incarnation",
+      "detail": "Monastère des Ursulines",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/marie-guyart-de-lincarnation",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Marie%20de%20l_incarnation_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Maison Péans",
+      "detail": "coin rue Saint-Louis et rue Corps-de-Garde",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-péans",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20P%C3%A9an%20-%20Des%20M%C3%A9loizes_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Les poudrières",
+      "detail": "Parc de l'Esplanade avant la Porte Saint-Louis",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/poudrières-de-québec",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Poudri%C3%A8res%20de%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Édifice Jean-Talon",
+      "detail": "vis à vis l'Hôtel du Parlement",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/édifice-jean-talon",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/CP Édifice Jean-Talon_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Grande-Allée",
+      "detail": "Boulevard",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/grande-allée",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Grande-All%C3%A9e_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Tours Martello",
+      "detail": "la tour no 2 coin avenue Taché et rue Wilfrid-Laurier",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/tours-martello",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Tours%20Martello_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Réservoir d'eau des Plaines d'Abraham",
+      "detail": "au sud du Parc Jeanne-d'Arc",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/réservoir-deau-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20R%C3%A9servoir%20d_eau%20des%20Plaines%20d_Abraham_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Les poternes",
+      "detail": "passages sous le rempart",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/poternes-du-rempart",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Poternes%20de%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Terrasse Dufferin",
+      "detail": "retour au point de départ",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/terrasse-dufferin",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Terrase%20Dufferin_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

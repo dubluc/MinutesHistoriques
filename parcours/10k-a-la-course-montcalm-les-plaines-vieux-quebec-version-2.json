@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ :",
+      "name": "Statue de Champlain",
+      "detail": "sur la Terrasse Dufferin",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/statue-de-champlain",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Statue%20de%20Champlain_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Maison Péans",
+      "detail": "coin rue St-Louis et rue du Corps de Garde",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-péans",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20P%C3%A9an%20-%20Des%20M%C3%A9loizes_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Bataille des Plaines d'Abraham",
+      "detail": "coin Grande-Allée et rues Turnbull et Cartier",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/bataille-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Bataille%20des%20Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Faubourg Guénette",
+      "detail": "rue Crémazie",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/faubourg-guénette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Faubourg%20Gu%C3%A9nette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Père Jacques Marquette",
+      "detail": "rue Père Marquette",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/père-jacques-marquette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20P%C3%A8re%20Marquette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Louis Antoine de Bougainville",
+      "detail": "coin avenue de Bougainville et Père Marquette",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/louis-antoine-de-bougainville",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO Bougainville Louis-Antoine de_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Camps de concentration",
+      "detail": "au Cove Field en arrière du Manège Militaire et à l'ouest de la Citadelle",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/camp-de-concentration-de-cove-field",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Camp%20de%20concentration%20de%20Cove%20Field_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Fontaine de Tourny",
+      "detail": "Face à l'Hotel du Parlement",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/fontaine-de-tourny",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/CP%20Fontaine%20de%20Tourny_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Rue des Remparts",
+      "detail": "rue des Remparts entre rue Hamel et rue St-Flavien",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/rue-des-remparts",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Remparts%20rue%20des_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Mgr François-de-Laval",
+      "detail": "la statue devant de l'édifice Louis-Saint-Laurent en haut de la Côte de la Montagne",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/mgr-françois-de-laval",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Mgr%20Fran%C3%A7ois%20de%20Laval%20de%20Montmorency%20version%20WEB_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

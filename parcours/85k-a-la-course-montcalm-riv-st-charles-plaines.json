@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1-",
+      "name": "École Joseph-François Perrault",
+      "detail": "à l'extrémité nord de l'avenue Cartier",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/joseph-françois-perrault",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20J%20F%20Perrault_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Côte De Salaberry",
+      "detail": "dans la Côte De Salaberry",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/côte-de-salaberry",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20C%C3%B4te%20De%20Salaberry_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Cimetière de l'Hôpital Générale",
+      "detail": "à l'extémité nord du boulevard Langelier, à droite passé l'entrée du terrain",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/cimetière-de-lhôpital-général",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Cimeti%C3%A8re%20Hopital-G%C3%A9n%C3%A9ral_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Parc Linéaire de la rivière St-Charles",
+      "detail": "Piste et sentier longeant la rivière Saint-Charles",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/parc-linéaire-de-la-rivière-saint-charles",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Parc%20lin%C3%A9aire%20de%20la%20rivi%C3%A8re%20Saint%20Charles_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Passerelle des Trois Sœurs",
+      "detail": "passerelle blanche à haut-ban",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/passerelle-des-trois-soeurs",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Passerelle%20des%20Trois%20Soeurs_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Paroisse Saint-Malo",
+      "detail": "à l'intersection du blv Marie-de-l'Incarnation et la rue de l'Aqueduc",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/paroisse-saint-malo",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20Paroisse%20de%20St-Malo_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Pente-Douce",
+      "detail": "à l'extrémité sud du boulevard Marie-de-l'Incarnation",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-st-rock-st-sauveur-riv-st-charles/côte-de-la-pente-douce",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SR%20C%C3%B4te%20de%20la%20Pente%20Douce_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Parc des Braves",
+      "detail": "à l'extrémité sud d e l'avenue des Braves",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/bataille-de-sainte-foy-1760",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Bataille%20de%20Sainte%20Foy_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Côte Gilmour",
+      "detail": "àl'ouest des Plaines d'Abraham",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/côte-gilmour",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20C%C3%B4te%20Gilmour_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Louis de Vergor",
+      "detail": "à l'intersection de l'avenue Ontario et l'avenue Garneau",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/louis-de-vergor",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA Vergor Louis_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

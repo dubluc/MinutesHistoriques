@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ :",
+      "name": "Bataille des Plaines d'Abraham",
+      "detail": "coin rue Cartier et Boul. René-Lévesque",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/bataille-des-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Bataille%20des%20Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Cimetière Saint-Louis",
+      "detail": "rue Maisonneuve devant l'école St-Patrick",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/cimetière-saint-louis",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Cimeti%C3%A8re%20St-Louis_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Monument des Suffragettes",
+      "detail": "côté sud de l'Hôtel du Parlement",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/monuments-des-suffragettes",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/CP Monument aux suffragettes_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Hôtel de Ville",
+      "detail": "coin rue Sainte-Anne et rue Pierre-Olivier-Chauveau",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/hotel-de-ville",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Hotel%20de%20Ville%20de%20Qu%C3%A9bec%20short_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Côte de la Montagne",
+      "detail": "entre la statue de Mgr Laval et le Parc Montmorency",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/les-côtes-du-vieux-québec-québec/côte-de-la-montagne",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20C%C3%B4te%20de%20la%20Montagne_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Petit-Champlain",
+      "detail": "en bas de l'escalier Casse-Cou en Basse-Ville",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-place-royale/petit-champlain",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PR Petit-Champlain version audio_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Anse-au-Foulon",
+      "detail": "en arrivant au bas de la Côte Gilmour",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-sillery-anse-au-foulon/anse-au-foulon",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/AF%20Anse-au-Foulon_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Bois-de-Coulonge",
+      "detail": "il faut monter l'escalier du Bois-de-Coulonge",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-sillery-anse-au-foulon/bois-de-coulonge",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SY Bois de Coulonge_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Père Jacques Marquette",
+      "detail": "rue Père Marquette",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/père-jacques-marquette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20P%C3%A8re%20Marquette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Faubourg Guénette",
+      "detail": "rue Crémazie",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/faubourg-guénette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Faubourg%20Gu%C3%A9nette_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

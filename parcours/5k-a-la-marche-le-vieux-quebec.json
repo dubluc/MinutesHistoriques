@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1- Départ suggéré :",
+      "name": "Terrasse Dufferin",
+      "detail": "Statue de Champlain",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/terrasse-dufferin",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Terrase%20Dufferin_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "La légende du Chien d'Or",
+      "detail": "Frontispice de l'Ancien Bureau de Poste",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/chien-dor",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Chien%20d_Or_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Escalier Casse-Cou",
+      "detail": "vers le Petit-Champlain",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-place-royale/escalier-casse-cou",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PR%20Escalier%20Casse%20Cou_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Maison Jean-Demers",
+      "detail": "29, rue Petit-Champlain",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-place-royale/maison-jean-demers",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PR%20Maison%20Demers_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Chapelle Notre-Dame-des-Victoires",
+      "detail": "Place Royale",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-place-royale/filles-du-roi",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PR%20Notre-Dame-des-Victoires_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Colonel Dambourgès",
+      "detail": "Coin rue Sault-au-Matelot et rue Sous-le-Cap",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/les-côtes-du-vieux-québec-québec/côte-du-colonel-dambourgès",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20C%C3%B4te%20Dambourg%C3%A8s%20Fran%C3%A7ois%20colonel_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Rue des Remparts",
+      "detail": "coin rue Hébert",
+      "page": "",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Remparts%20rue%20des_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Les Augustines Hospitalières",
+      "detail": "Hopital Hotel-Dieu, rue Charlevoix",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/hospitalières-et-lhotel-dieu",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Hospitali%C3%A8res%20et%20Hotel-Dieu_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Fontaine de Tourny",
+      "detail": "Boul. Honoré-Mercier, face à l'Hotel du Parlement",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/fontaine-de-tourny",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/CP%20Fontaine%20de%20Tourny_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Maison aux fausses fenêtres",
+      "detail": "Coin rue St-Louis et D'Auteuil",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/résidences-et-demeures/maison-aux-fenêtres-murées",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Maison%20aux%20six%20fen%C3%AAtres%20mur%C3%A9es_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "11-",
+      "name": "Monunent Wolfe-Montcalm",
+      "detail": "Jardin des Gouverneurs",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-vieux-québec/monument-wolfe-montcalm",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/VQ%20Monument%20Wolfe%20Montcalm_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}

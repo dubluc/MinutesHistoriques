@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "styles": {
+    "prefix": {
+      "color": "#1c1c1c",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "place": {
+      "color": "#734332",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": true
+    },
+    "detail": {
+      "color": "#b45f06",
+      "size": 15,
+      "bold": false,
+      "italic": true,
+      "underline": false
+    },
+    "speed": {
+      "color": "#5f6368",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "time": {
+      "color": "#777777",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
+  },
+  "capsules": [
+    {
+      "prefix": "1 - Départ :",
+      "name": "Bataille des Plaines d'Abraham 1759 - Ligne des troupes françaises",
+      "detail": "coin boul. Grande-Allée et ave. Turnbull",
+      "page": "https://www.minuteshistoriquesqc.ca/trajets-%C3%A0-la-course-%C3%A0-pied/7k-%C3%A0-la-course-montcalm",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA Bataille des Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "2-",
+      "name": "Bataille des Plaines d'Abraham 1759 - Lignes des troupes britanniques",
+      "detail": "coin boul. Grande-Allée et ave. Cartier",
+      "page": "https://www.minuteshistoriquesqc.ca/trajets-%C3%A0-la-course-%C3%A0-pied/7k-%C3%A0-la-course-montcalm",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA Bataille des Plaines_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "3-",
+      "name": "Faubourg Guénette",
+      "detail": "rue Crémazie",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/faubourg-gu%C3%A9nette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Faubourg%20Gu%C3%A9nette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "4-",
+      "name": "Père Marquette",
+      "detail": "rue du même nom",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/p%C3%A8re-jacques-marquette",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20P%C3%A8re%20Marquette_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "5-",
+      "name": "Caisse Notre-Dame du Chemin",
+      "detail": "coin Père-Marquette et ave. des Érables",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/caisse-notre-dame-du-chemin",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Caisse%20Notre-Dame-du-Chemin_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "6-",
+      "name": "Louis-Antoine de Bougainville",
+      "detail": "coin Père-Marquette et avenue de Bougainville",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/personnages-historiques/louis-antoine-de-bougainville",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO Bougainville Louis-Antoine de_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "7-",
+      "name": "Bataille de Sainte-Foy 1760",
+      "detail": "Parc des Braves, Chemin Sainte-Foy face ave. des Braves",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/bataille-de-sainte-foy-1760",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/MO%20Bataille%20de%20Sainte%20Foy_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "8-",
+      "name": "Cimetière des Holland",
+      "detail": "Coin Chemin Sainte-Foy et ave. Holland",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-montcalm-st-sacrement/cimeti%C3%A8re-des-holland",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SY%20Cimeti%C3%A8re%20des%20Holland_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "9-",
+      "name": "Bois-de-Coulonge",
+      "detail": "Spencer Wood - Coin ave. Holland et boul. Grande-Allée",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-sillery-anse-au-foulon/bois-de-coulonge",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/SY Bois de Coulonge_fr-CA-Wavenet-C.mp3"
+    },
+    {
+      "prefix": "10-",
+      "name": "Charles Lindberg sur les Plaines",
+      "detail": "1928 - Anneau des Plaines d'Abraham",
+      "page": "https://www.minuteshistoriquesqc.ca/les-mh/secteur-plaines-dabraham/lindbergh-sur-les-plaines-dabraham",
+      "mp3": "https://raw.githubusercontent.com/dubluc/MinutesHistoriques/main/PA%20Lindberg%20%C3%A0%20Qu%C3%A9bec_fr-CA-Wavenet-C.mp3"
+    }
+  ]
+}
