@@ -25,3 +25,9 @@ Capsules sur les trajets de marches et de course
 Enfin, le fichier "../Parcours/url_parcours.csv" fourni le lien URL de chaque page à intégrer au site, exemple:
   https://dubluc.github.io/MinutesHistoriques/parcours.html?trajet=95-km-parc-lineaire-st-charles
   https://dubluc.github.io/MinutesHistoriques/parcours.html?trajet=105k-a-la-course-montcalm-vieux-quebec-place-royale-sillery
+
+Lecteur audio individuel pour les Minutes historique.
+  Pour chaque page d'une Minutes historique, le lecteur audio est produit de façon semblable.
+  Le fichier "Lecteur.html" produit le lecteur audio (bouton, retour au début, pause, durée). Il suffit de lui passer en paramètre le nom du fichier audio, par exemple
+    https://dubluc.github.io/MinutesHistoriques/lecteur.html?audio=VQ%20Monument%20Wolfe%20Montcalm_fr-CA-Wavenet-C.mp3
+  Le fichier "URL_audio_MH.csv" comprend la liste des URL à intégrer à chaque page d'une minute historique du site.
